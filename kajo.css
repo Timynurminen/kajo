@@ -164,12 +164,7 @@ footer p{
    padding-top: 25px;
 }
 
-.back-button-container {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20px;
-    margin-top: 20px;
-}
+
 
 .galleria-kuvat {
     display: grid;
@@ -194,26 +189,7 @@ footer p{
 }
 
 
-.back-button {
-    background-color: rgba(42, 66, 31, 0.331);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 5px;
-    min-height: 20px;
-    font-size: 15px;
 
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    transition: background-color 0.3s ease;
-}
-
-.back-button:hover {
-    background-color: rgba(42, 66, 31, 0.5);
-}
 @media screen and (min-width: 769px) {
     .site-hover-box a {
         text-align: left; /* This ensures text is aligned left on desktop */
@@ -276,12 +252,6 @@ footer p{
         max-width: 100%;
     }
 
-    .back-button {
-        margin: 10px;
-        width: calc(100% - 20px);
-        text-align: center;
-    }
-
     footer {
         padding: 20px 10px;
     }
@@ -289,16 +259,7 @@ footer p{
     footer p {
         font-size: 14px;
     }
-    .back-button-container {
-        justify-content: center;
-        padding-left: 0;
-    }
 
-    .back-button {
-        width: calc(100% - 40px);
-        max-width: 300px;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -327,7 +288,7 @@ html {
 }
 
 /* Improve touch targets for mobile */
-.info-button, .back-button {
+.info-button {
     min-height: 44px;
     display: flex;
     align-items: center;
